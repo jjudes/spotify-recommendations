@@ -29,7 +29,7 @@ require("C50")
 require("randomForest")
 
 #Environment Setup and Spotify Authentification to use Spotifyr package
-Sys.setenv(SPOTIFY_CLIENT_ID = "ee4be9863cc644aab1db76fb55dcb430", SPOTIFY_CLIENT_SECRET = "6adb4c4e54bf4ab5b972c6ed3814260a")
+Sys.setenv(SPOTIFY_CLIENT_ID = "", SPOTIFY_CLIENT_SECRET = "")
 
 #For convenience we vectorize the following Spotifyr function
 Vectorize(get_track_audio_features, "ids")
